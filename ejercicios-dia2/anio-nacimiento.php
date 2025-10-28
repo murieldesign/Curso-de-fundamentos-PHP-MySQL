@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6: Cálculo de edad</title>
+</head>
+<body>
+    <?php 
+    // 🧮 Ejercicio 6: Cálculo de edad
+    $anioNacimiento = 2000;
+    $anioActual = date("Y");
+    $edad = $anioActual - $anioNacimiento;
+
+    echo "<h3>Ejercicio 6</h3>";
+    echo "Tienes $edad años.<br>";
+    
+    ?>
+    
+</body>
+</html>
