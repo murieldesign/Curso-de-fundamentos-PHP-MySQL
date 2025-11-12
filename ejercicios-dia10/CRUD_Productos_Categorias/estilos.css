@@ -1,0 +1,117 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f6f7fb;
+      color: #333;
+    }
+
+    header {
+      background-color: #40c95e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: #fff;
+      padding: 30px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #40c95e;
+      margin-top: 0;
+    }
+
+    form input,
+    form textarea,
+    form button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      background-color: #40c95e;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    form button:hover {
+      background-color: #357ABD;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 25px;
+    }
+
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    .actions button {
+      background-color: transparent;
+      color: #40c95e;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    .actions button:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      text-align: center;
+      color: #888;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    select {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 10px 0;
+  font-size: 1rem;
+  font-family: sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  appearance: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+select:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+option {
+  padding: 10px;
+  font-size: 1rem;
+}
+select {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20viewBox%3D%270%200%204%205%27%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%3E%3Cpath%20d%3D%27M2%205L0%200h4z%27%20fill%3D%27%23333%27/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
+}
